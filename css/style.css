@@ -1,0 +1,139 @@
+body {
+  font-family: "PT Serif", serif;
+}
+
+section {
+  min-height: 600px;
+}
+
+.footer {
+  min-height: auto;
+}
+
+.nav-item a {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.nav-item a:hover {
+  color: #ff6900 !important;
+}
+
+.dropdown-menu,
+.dropdown-menu li a:hover {
+  background-color: black;
+}
+
+.dropdown-menu li a {
+  color: white;
+}
+
+.dropdown-menu hr {
+  background-color: white;
+}
+
+.navbar-brand img {
+  max-width: 300px;
+}
+
+.collapse ul li a,
+footer .nav-item a {
+  position: relative;
+}
+
+.collapse ul li a:after,
+footer .nav-item a:after {
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #ff6900;
+  transition: 0.3s ease 0s;
+  width: 0;
+}
+
+.collapse ul li a:hover:after,
+footer .nav-item a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.carousel {
+  margin-top: 120px;
+}
+
+.album {
+  color: white !important;
+}
+
+.col strong {
+  color: #ff6900 !important;
+}
+
+.wrapper {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.zoom-effect {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.kotak {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.kotak img {
+  transition: 0.4s ease;
+  width: 200px;
+}
+
+.zoom-effect:hover .kotak img {
+  transform: scale(1.08);
+}
+
+footer .row ul li a {
+  color: rgb(160, 148, 148) !important;
+}
+
+.accordion-body ol li a {
+  color: black;
+}
+
+.accordion-body ol li a:hover {
+  color: #ff6900;
+}
+
+@media (max-width: 987px) {
+  .navbar-brand img {
+    max-width: 200px;
+  }
+
+  .pengertian img {
+    margin-bottom: 55px;
+  }
+
+  .pengertian p {
+    text-align: center !important;
+  }
+
+  .col p {
+    margin-bottom: 20px !important;
+  }
+}
+
+/* Desktop Version */
+
+/* @media (min-width: 992px){
+    .navbar-brand img{
+        width: 300px;
+        height: 100px;
+    }
+} */

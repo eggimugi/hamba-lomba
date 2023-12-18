@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reog Ponorogo</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet" />
+
+    <!-- Icon tab -->
+    <link rel="shortcut icon" href="image/icon.png" />
+  </head>
+  <body class="bg-black">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="image/logo.png" alt="Bootstrap" class="img-fluid" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#pengertian">Pengertian</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Reog Ponorogo <i class="bi bi-caret-down-fill"></i> </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#album">Sejarah</a></li>
+                <li><a class="dropdown-item" href="#tentang">Tentang Reog Ponorogo</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+                <li><a class="dropdown-item" href="#caraBuat">Cara Buat</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#footer" aria-disabled="true">Footer</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Carousel -->
+    <section id="carousel" class="carousel mb-5">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/carousel2.png" class="d-block w-100 img-fluid" alt="Sejarah" />
+            <div class="container">
+              <div class="text-white d-none d-md-block my-5">
+                <h1 style="color: #ff6900">Warisan budaya</h1>
+                <p>Dalam rangka melestarikan budaya Indonesia, pemerintah mendaftarkan Reog Ponorogo sebagai WBTB ke UNESCO.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/carousel1.png" class="d-block w-100 img-fluid" alt="..." />
+            <div class="container">
+              <div class="text-white d-none d-md-block my-5">
+                <h1 style="color: #ff6900">Reog Ponorogo</h1>
+                <p>Salah satu budaya Indonesia yang menggunakan topeng singa dengan hiasan bulu merak seberat 50kg.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/carousel3.png" class="d-block w-100 img-fluid" alt="..." />
+            <div class="container">
+              <div class="text-white d-none d-md-block my-5">
+                <h1 style="color: #ff6900">Pameran Budaya</h1>
+                <p>Pameran budaya nusantara adalah salah satu upaya pemerintah dalam melestarikan budaya Indonesia agar tidak hilang ditelan zaman.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Akhir Carousel -->
+
+    <hr class="text-white" />
+
+    <!-- Isi -->
+    <section id="pengertian" class="pengertian my-5">
+      <div class="container">
+        <div class="row pt-4 mb-4">
+          <div class="col text-white mb-5">
+            <h2>Pengertian</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4" data-aos="fade-right" data-aos-duration="1000">
+            <img src="image/reog3.png" class="rounded bg-black img-fluid mx-auto d-block" alt="Reog Ponorogo" width="300px" height="250px" />
+          </div>
+
+          <div class="col-lg-6 text-white" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <p class="text-end mt-3">
+              Reog Ponorogo adalah tarian tradisional dari Ponorogo, Jawa Timur. Reog Ponorogo memiliki penari utama berupa orang yang memakai topeng kepala singa dengan hiasan bulu merak dan ditambah beberapa penari tambahan yang memakai
+              topeng dan kuda lumping.
+              <br /><br />
+              Pada mulanya, kesenian Reog Ponorogo ini berasal dari seorang dewi cantik jelita dari Kerajaan Kediri yang meminta seekor hewan berkepala dua sebagai syarat untuk menikahinya.
+              <br /><br />
+              Memangnya, di dunia ini ada hewan berkepala dua?
+              <br /><br />
+              Cerita lengkapnya klik <a href="#album" style="color: #ff6900">di sini</a> ya teman-teman.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir isi -->
+
+    <hr class="text-white" />
+
+    <!-- Album -->
+    <section id="album" class="album my-5">
+      <div class="container">
+        <div class="row pt-4 mb-4">
+          <div class="col text-white mb-5 text-center">
+            <h2>Tentang Reog Ponorogo</h2>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-md-6" data-aos="flip-left" data-aos-duration="500">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column poaition-static">
+                <strong class="d-inline-block mb-2 text-success-emphasis">Sejarah</strong>
+                <h3 class="mb-3">Reog Ponorogo</h3>
+                <p class="mb-auto">Seorang dewi yang meminta hewan berkepala dua sebagai syarat untuk menikahinya</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Baca lebih lanjut</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content bg-light text-dark">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Sejarah Reog Ponorogo</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img src="image/reog2.jpg" alt="Reog Ponorogo" class="img-fluid mb-5 rounded" />
+                        <p>
+                          Dahulu kala di Kerajaan Kediri. Hiduplah seorang dewi yang cantik jelita bernama Dewi Songgo Langit. Karena masih juga belum menikah, Sang Raja Kediri meminta anaknya Dewi Songgo Langit untuk segera menikah. Namun,
+                          Dewi Songgo Langit hanya tertunduk diam. Dia pun meminta izin untuk melakukakn tapa brata agar memperoleh jawaban yang tepat. Beberapa hari setelah selesai melakukan tapa brata dan memperoleh jawaban, Sang Dewi pun
+                          pergi menghadap Sang Raja untuk memberikan jawabannya. Lalu mengutarakan sebuah syarat jika ingin menjadi suaminya harus menghadirkan sebuah pertunjukan yang belum pernah ada sebelumnya dan barisan kuda kembar
+                          sejumlah 144 ekor. Terakhir, Sang Dewi meminta syarat harus membawa seekor hewan berkepala dua. Bagi Sang Raja, syarat yang diutarakan sangat mustahil. Dikarenakan harus menghadirkan binatang berkepala dua. Namun
+                          mau tidak mau, Raja Kediri mengumumkannya dalam sebuah sayembara.
+                          <br /><br />
+                          Kabar pun menyebar, namun banyak di antara mereka yang mengundurkan diri karena tidak sanggup memenuhi syarat karena merasa mustahil untuk dipenuhi. Tetapi, terdapat dua raja yang menyanggupi syarat tersebut.
+                          Mereka adalah Raja Singo Barong dari Kerajaan Lodaya dan Raja Klono Sewandono dari Kerajaan Bantarangin di daerah Wengker.
+                          <br /><br />
+                          Raja Singo Barong adalah manusia setengah harimau dengan bulu lebatnya yang penuh dengan kutu sehingga harus memelihara seekor burung merak untuk mematuki kutu-kutu tersebut. Dia juga sering bertindak kejam
+                          terhadap rakyatnya yang dianggap pembangkang dengan memberikan hukuman mati tanpa ada pembelaan diri.
+                          <br /><br />
+                          Di saat itu, belum ada seseorang yang dirasa pantas Raja Singo Barong untuk dijadikan permaisurinya kecuali Dewi Songgo Langit. Untuk mewujudkan hal tersebut Raja Singo Barong mengutus para prajuritnya untuk
+                          mencari syarat-syarat yang diajukan untuk menikahi Dewi Songgo Langit. Setelah beberapa hari, Raja Singo Barong masih belum berhasil mengumpulkan syarat-syarat yang diajukan. Hal ini membuatnya marah, Raja Singo
+                          Barong tahu bahwa ada raja lain yang ingin menikahi Dewi Songgo Langit yaitu Raja Klono Sewandono. Mengetahui hal itu, Raja Singo Barong memerintahkan Patih Iderkolo untuk mengirim prajurit ke Bantarangin dengan
+                          tujuan memata-matai Raja Klono Sewandono.
+                          <br /><br />
+                          Beberapa hari kemudian, Iderkolo menghadap Raja Singo Barong dan melapor bahwa Raja Klono Sewandono hampir berhasil mengumpulkan semua syarat-syarat yang diajukan untuk menikahi Dewi Songgo Langit hanya binatang
+                          berkepala dua saja yang belum didapat. Mendengar hal itu Raja Singo Barong murka dan memerintah Patih Iderkolo untuk menyiapakan semua parjurit dan bersiap untuk merampas semua syarat yang sudah didapat Raja Klono
+                          Sewandono. Di lain sisi, Raja Klono Sewandono sudah selesai mengumpulkan semua syarat kecuali hewan berkepala dua. Raja Klono Sewandono kemudian memerintahkan prajurit untuk berhenti mencari hewan berkepala dua,
+                          karena dia sendiri yang akan berusaha mencarinya.
+                          <br /><br />
+                          Ketika hendak meninggalkan kerajaan, Patih Bujang Ganong datang menghadap Raja Klono Sewandono dan memberitahukan bahwa ada mata-mata dari Kerajaan Lodaya yang mwngintai Kerajaan Bantarangin. Mendengar hal itu,
+                          Raja Klono Sewandono mengutus Patih Bujang Ganong dan anak buahnya untuk menyamar sebagai rakyat biasa dan berbaur dengan penduduk desa. Lalu, Bujang Ganong pun pergi menemui anak buahnya dan mengutus mereka untuk
+                          menyamar sebagai pedagang. Dari hasil penyelidikan, ditemukan satu orang yang dicurigai sebagai mata-mata dari Kerajaan Lodaya yang telah lama melakukan penyamaran di Wengker. Mata-mata itu kemudian ditangkap dan
+                          diintrogasi. Tetapi, ketika proses introgasi belum berakhir mata-mata itu melakukan bunuh diri. Hasil introgasi kemudian dilaporkan. Diketahui bahwa Raja Singo Barong bersama pasukannya berniat merebut semua syarat
+                          yang sudah dipenuhi Raja Klono Sewandono. Mendengar hal itu, Raja Klono Sewandono berencana untuk menggempur Kerajaan Lodaya dan mengutus Bujang Ganong untuk menyiapkan pasukannya.
+                          <br /><br />
+                          Sementara itu, Raja Singo Barong yang menunggu laporan dari mata-matanya mulai gelisah. Dia pun mengutus Patih Iderkolo untuk menuju ke perbatasan dan menjemput mata-matanya. Setelah Patih Iderkolo pergi, Raja
+                          Singo Barong pergi menuju ke taman sari untuk mencari si burung merak karena kepalanya terasa gatal sekali. Raja Singo Barong sangat menikmati ketika kutu di kepalanya dipatuk oleh burung merak hingga membuatnya
+                          tertidur pulas. Bahkan dia tidak menyadari bahwa pasukan Bantarangi telah datang menyerbu dan mulai menghancurkan Lodaya. Tidak ada yang berani melaporkan kejadian tersebut karena tidak boleh ada satu orang pun
+                          yang mengganggunya ketika di taman sari.
+                          <br /><br />
+                          Tanpa disadari, Raja Singo barong telah diawasi oleh Raja Klono Sewandono. Melihat bentuk wajah Singo Barong yang berupa harimau dan burung merak yang bertengger di bahunya membuat seolah-olah tampak seperti hewan
+                          berkepala dua. Dalam benak Raja Klono Sewandono, apabila disatukan tentu lengkaplah sudah syarat pernikahannya untuk meminang Dewi Songgo Langit.
+                          <br /><br />
+                          Ketika penyerbuan telah mendekati istana, barulah Raja Singo Barong terbangun karena terdengar suara keributan. Dengan amarah karena tidurnya terganggu, Raja Singo Barong segera bergegas menuju istana untuk mencari
+                          tahu siapa pelakunya. Raja Klono Sewandono pun langsung menghadangnya. Mengetahui bahwa yang membuat keributan adalah Raja Klono Sewandono, Raja Singo Barong pun semakin murka yang akhirnya mereka saling beradu
+                          kesaktian.
+                          <br /><br />
+                          Saat hendak melakukan pertarungan, Raja Klono Sewandono mengeluarkan pusaka andalannya. Berupa cemeti bernama Pecut Samandiman. Saat Pecut Samandiman mengenai tubuh Singo Barong, seketika tubuhnya terpental
+                          terkapar di atas tanah. Kemudian, leher Raja Singo Barong menyatu dengan burung merak sehingga menjadi hewan berkepala dua. Hingga akhirnya Singo Barong pun ditangkap dan dibawa menuju Kerajaan Bantarangin.
+                          <br /><br />
+                          Setelah semua syarat terpenuhi, Raja Klono Sewandono bersama pengiringnya datang ke Kediri untuk meminang Dewi Songgo Langit. Sesampainya di sana, mereka melakukan sebuah pertunjukan yaitu kesenian baru berupa
+                          barisan 144 ekor kuda kembar dalam iringan gamelan, gendang dan terompet. Di depan barisan tersebut, ada Singo Barong seekor binatang berkepala dua yang menari liar namun indah dan menarik hati.
+                          <br /><br />
+                          Dengan ditampilkannya kesenian batu tersebut, maka terpenuhilah sudah syarat yang diminta Dewi Songgo Langit. Mereka akhirnya menikah dan tinggal di daerah Wengker atau yang sekarang menjadi Ponorogo. Oleh
+                          masyarakat setempat, kesenian baru ini disebut sebagai Reog Ponorogo.
+                          <br /><br /><br /><br /><br />
+                          <span class="text-body-secondary fst-italic">Source : <a href="https://youtu.be/no1xmv-9bIU?feature=shared" class="text-reset">Cerita Rakyat Asal usul Reog Ponorogo</a></span>
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-auto d-none d-lg-block kartu">
+                <div class="wrapper">
+                  <div class="zoom-effect">
+                    <div class="kotak">
+                      <img src="image/card1.jpg" class="img-fluid rounded-end" alt="Reog Ponorogo" width="200" height="100%" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column poaition-static">
+                <strong class="d-inline-block mb-2 text-success-emphasis">Berita</strong>
+                <h3 class="mb-3">Reog Ponorogo</h3>
+                <p class="mb-auto">Reog Ponorogo kebudayaan milik Malaysia?</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Baca lebih lanjut</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content bg-light text-dark">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          Teman-teman, pada bulan April 2022 rakyat Indonesia dikejutkan dengan kabar bahwa negara tetangga kita Malaysia berencana akan mendaftarkan Reog Ponorogo sebagai warisan budaya tak benda ke UNESCO.
+                          <br /><br />
+                          Loh, bukannya Reog Ponorogo itu kesenian Indonesia yang asalnya dari Ponorogo, Jawa Timur ya?.
+                          <br /><br />
+                          Itu betul teman-teman Reog Ponorogo merupakan kesenian asli Indonesia yang asalnya dari Ponorogo, Jawa Timur.
+                          <br /><br />
+                          Tapi, kenapa Malaysia mau mendaftarkan Reog Ponorogo sebagai warisan budaya tak benda ke UNESCO sebagai kesenian yang berasal dari negara mereka?.
+                          <br /><br />
+                          Nah, pertanyaan kalian sama dengan yang ditanyakan para warga Indonesia saat itu khususnya warga Ponorogo, Jawa Timur. Tentunya kabar itu langsung mendapat respon keras dari pemerintah Indonesia. Kementerian
+                          Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbudristek) menegaskan bahwa Reog Ponorogo merupakan warisan budaya asli Indonesia yang berasal dari Kabupaten Ponorogo, Jawa Timur.
+                          <br /><br />
+                          Teman-teman, ternyata klaim Malaysia atas Reog Ponorogo didasarkan pada kesamaan nama dengan kesenian rakyat dari Negeri Jiran tersebut, yaitu tarian singa yang disebut "Reog". Namun, faktanya tarian Reog dari
+                          Malaysia ini memiliki perbedaan yang cukup mencolok dengan Reog Ponorogo teman-teman. Tarian Reog dari Malaysia tidak memiliki karakter Singo Barong, Bujang Ganong, Klonovi, dan Jathil. Selain itu, tarian Reog dari
+                          Malaysia juga tidak memiliki gerakan-gerakan yang khas seperti Reog Ponorogo.
+                          <br /><br />
+                          Mendengar kabar bahwa Reog Ponorogo akan didaftarkan Malaysia ke UNESCO sebagai budaya mereka membuat masyarakat Indonesia khususnya masyarakat Ponorogo merasa tidak terima akan hal itu. Para warga masyarakat
+                          secara serentak melakukan protes kepada pemerintah Indonesia untuk melakukan upaya mencegah Malaysia mendaftarkan Reog Ponorogo sebagai warisan budaya mereka. Mendengar hal itu, Kemendikbudristek pun mengirimkan
+                          surat kepada UNESCO untuk menegaskan bahwa Reog Ponorogo merupakan warisan budaya asli Indonesia. Selain itu, pemerintah Indonesia juga telah melakukan diplomasi budaya dengan Malaysia untuk menyelesaikan masalah
+                          ini secara bilateral.
+                          <br /><br />
+                          Setelah beberapa waktu, kedutaan besar Malaysia di Indonesia menyatakan bahwa Malaysia tidak berencana mendaftarkan Reog Ponorogo sebagai salah satu warisan budaya mereka ke UNESCO. Jadi, berita ini asli atau
+                          <i>hoax</i>?. Sebelumnya, wacana Malaysia mengklaim kebudayaan Indonesia ini kembali mencuat setelah adanya pernyataan dari Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan Republik Indonesia, Muhadjir
+                          Effendy yang mengatakan upaya mematenkan Reog Ponorogo sebagai warisan budaya tak benda ke UNESCO ternyata tak hanya datang dari Indonesia. Tetapi, juga dari pemerintah Malaysia. Namun faktanya, Malaysia tak ada
+                          niat untuk mengajukan kebudayaan Ponorogo tersebut ke badan PBB. Untuk mengantisipasi hal ini benar-benar terjadi, pemerintah Indonesia mendorong pemerintah Kabupaten Ponorogo untuk segera mengusulkan Reog Ponorogo
+                          ke UNESCO dan mempersiapkan data yang diperlukan. <br /><br />
+                          Wah, untungnya berita ini nggak benar ya sob. Tapi, kok bisa sih berita negara lain yang akan mengambil kebudayaan kita ini tersebar?. Tentunya, berita ini tersebar karena kesalahpahaman kita ya sob. Tapi, dibalik
+                          berita ini, bisa kita jadikan cerminan nih untuk selalu melestarikan budaya Indonesia agar tidak diambil oleh negara lain. Kesenian telah menjadi bagian dari identitas budaya Indonesia dan telah menarik perhatian
+                          dunia internasional.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-auto d-none d-lg-block kartu">
+                <div class="wrapper">
+                  <div class="zoom-effect">
+                    <div class="kotak">
+                      <img src="image/card1.jpg" class="img-fluid rounded-end" alt="..." width="200" height="100%" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Album -->
+
+    <hr class="text-white" />
+
+    <!-- Tentang -->
+    <section id="tentang" class="tentang">
+      <div class="container">
+        <div class="row pt-4 mb-4">
+          <div class="col text-white mb-5 text-center">
+            <h2>Mengenal Reog Ponorogo lebih jauh</h2>
+          </div>
+        </div>
+
+        <div class="text-white mb-5">
+          <p>
+            Dari sejarah dan berita yang sudah kalian baca di atas, tentunya kita harus melestarikan kesenian Reog Ponorogo ini supaya tidak hilang dan diambil oleh negara lain.
+            <br />
+            Sebelum mulai melestarikannya, yuk kita mengenal kesenian Reog Ponorogo ini lebih jauh lagi.
+          </p>
+        </div>
+
+        <div class="accordion mb-5" id="accordionExample" data-aos="fade-up" data-aos-placement="center-bottom" data-aos-offset="400">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Berapa jumlah penari Reog Ponorogo?</button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Umumnya, Reog Ponorogo ditarikan oleh 6 orang penari, yaitu 1 penari Pembarong yang memakai topeng kepala singa dengan hiasan bulu merak, 2 penari Bujang Ganong yang memakai topeng berwarna putih dan merah, 2 penari Jathilan
+                wanita, dan 1 penari kucingan.
+                <br /><br />
+                Namun, dalam buku Reog Kendang (2015) karya Herry Lisbijanto, jumlah pemain tari Reog sebanyak 18 orang, terdiri dari:
+                <br /><br />
+                <ol>
+                  <li>Singo Barong, sebanyak 1-2 orang</li>
+                  <li>Pujangga Anom atau Bujangganong, terdiri 1-2 orang</li>
+                  <li>Raja Klono Sewandono, 1 orang</li>
+                  <li>Sekelompok Jathilan, 6 orang</li>
+                  <li>Warok, 7 orang</li>
+                </ol>
+                <br />
+                Kesimpulannya, jumlah penari Reog Ponorogo adalah <strong>relatif</strong> sesuai kebutuhan acara pementasan.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Berapa berat topeng singa yang digunakan penari Reog Ponorogo?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Berat topeng kepala singa yang biasa digunakan oleh penari Reog Ponorogo adalah <strong>50-60 kg</strong>. <br /><br />
+                Wah, berat banget yaa. Maka dari itu, kita harus memberikan hormat kepada para penari-penari Reog Ponorogo yang hebat-hebat ini ya teman-teman.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Bagaimana rangakaian pementasan Reog Ponorogo?</button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Umumnya, Reog Ponorogo terdiri dari <strong>2-3 tarian pembukaan</strong>. <br /><br />
+                Tarian pertama biasanya terdapat pria gagah berani dengan pakaian serba hitam, dengan muka dipoles berwarna merah. Berikutnya adalah tarian yang dibawakan oleh para gadis yang menaiki kuda. Tarian ini dinamakan tari jaran
+                kepang atau jathilan.
+                <br /><br />
+                Tarian pembukaan lainnya jika ada biasanya berupa tarian oleh anak kecil yang membawakan adegan lucu yang disebut Bujang Ganong atau Ganongan. Setelah tarian pembukaan selesai, baru ditampilkan
+                <strong>adegan inti</strong> yang isinya bergantung kondisi di mana seni Reog ditampilkan. Jika berhubungan dengan pernikahan maka yang ditampilkan adalah adegan percintaan. Untuk hajatan khitanan atau sunatan, biasanya
+                cerita pendekar. <br /><br />
+                <strong>Adegan terakhir</strong> adalah Singa Barong, di mana pelaku memakai topeng berbentuk kepala singa dengan mahkota yang terbuat dari bulu burung merak. Topeng ini dibawa oleh penarinya dengan gigi. Kemampuan untuk
+                membawakan topeng ini selain diperoleh dengan latihan yang berat, juga dipercaya diperoleh dengan latihan spiritual seperti puasa dan tapa.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                Siapa saja tokoh-tokoh yang ada dalam seni Reog Ponorogo?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Terdapat 5 tokoh dalam kesenian Reog Ponorogo, yaitu:
+                <br /><br />
+                <ol>
+                  <li>
+                    <a class="link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions1" aria-controls="offcanvasWithBothOptions">Warok</a>
+
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions1" aria-labelledby="offcanvasWithBothOptionsLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Warok</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <img src="image/warok.jpg" alt="Warok" class="img-fluid rounded mb-5" />
+                        <p>
+                          "Warok" berasal dari kata wewarah yang berarti orang yang mempunyai tekad suci, memberikan tuntunan dan perlindungan tanpa pamrih.Warok adalah wong kang sugih wewarah (orang yang kaya akan wewarah). Artinya,
+                          seseorang menjadi warok karena mampu memberi petunjuk atau pengajaran kepada orang lain tentang hidup yang baik.
+                          <br /><br />
+                          Warok merupakan karakter/ciri khas dan jiwa masyarakat Ponorogo yang telah mendarah daging sejak dahulu yang diwariskan oleh nenek moyang kepada generasi penerus. Warok merupakan bagian peraga dari kesenian Reog
+                          yang tidak terpisahkan dengan peraga yang lain dalam unit kesenian Reog Ponorogo. Warok adalah seorang yang betul-betul menguasai ilmu baik lahir maupun batin.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <a class="link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions2" aria-controls="offcanvasWithBothOptions">Jathil</a>
+
+                    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions2" aria-labelledby="offcanvasWithBothOptionsLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Jathil</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <img src="image/jathil.jpg" alt="Jathil" class="img-fluid rounded mb-5" />
+                        <p>
+                          Jathil adalah prajurit berkuda dan merupakan salah satu tokoh dalam seni Reog. Jathilan merupakan tarian yang menggambarkan ketangkasan prajurit berkuda yang sedang berlatih di atas kuda. Tarian ini dibawakan oleh
+                          penari di mana antara penari yang satu dengan yang lainnya saling berpasangan. Ketangkasan dan kepiawaian dalam berperang di atas kuda ditunjukkan dengan ekspresi atau semangat sang penari.
+                          <br /><br />
+                          Jathil ini pada mulanya ditarikan oleh gemblak, laki-laki yang halus, berparas tampan atau mirip dengan wanita yang cantik. Gerak tarinya pun lebih cenderung feminin. Ciri-ciri kesan gerak tari Jathilan pada
+                          kesenian Reog Ponorogo lebih cenderung pada halus, lincah, dan cekatan. Hal ini didukung oleh pola ritmis gerak tari yang silih berganti antara irama mlaku (lugu) dan irama ngracik.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <a class="link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions3" aria-controls="offcanvasWithBothOptions">Bujang Ganong</a>
+
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions3" aria-labelledby="offcanvasWithBothOptionsLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Bujang Ganong</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <img src="image/bujang.jpg" alt="Bujang Ganong" class="img-fluid rounded mb-5" />
+                        <p>
+                          Bujang Ganong atau Patih Pujangga Anom adalah salah satu tokoh yang energik, kocak sekaligus mempunyai keahlian dalam seni bela diri sehingga di setiap penampilannya senantiasa diperagakan oleh 2 orang pada umumnya
+                          yang selalu ditunggu-tunggu oleh penonton khususnya anak-anak.
+                          <br /><br />
+                          Bujang Ganong menggambarkan sosok seorang patih muda yang meskipun secara fisik cenderung buruk rupa, tetapi ia cekatan, berkemauan keras, cerdik, jenaka, dan sakti. Topeng Bujang Ganong berwarna merah menyala
+                          dengan khas mata yang melotot, hidung yang besar, dan gigi yang menonjol. Topeng tersebut terbuat dari kayu dadap, sedangkan rambut pada topengnya terbuat dari ekor kuda.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <a class="link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions4" aria-controls="offcanvasWithBothOptions">Klono Sewandono</a>
+
+                    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions4" aria-labelledby="offcanvasWithBothOptionsLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Klono Sewandono</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <img src="image/klono.jpg" alt="Klono Sewandono" class="img-fluid rounded mb-5" />
+                        <p>
+                          Klono Sewandono atau Raja Klono adalah seorang raja sakti mandraguna yang memiliki pusaka andalan berupa cemeti yang sangat ampuh dengan sebutan Pecut Samandiman ke mana saja pergi sang Raja yang tampan dan masih
+                          muda ini selalu membawa pusaka tersebut. Pusaka tersebut digunakan untuk melindungi dirinya.
+                          <br /><br />
+                          Kegagahan sang Raja digambarkan dalam gerak tari yang lincah serta berwibawa, dalam suatu kisah Prabu Klono Sewandono berhasil menciptakan kesenian indah hasil dari daya ciptanya untuk menuruti permintaan Putri
+                          (kekasihnya). Karena sang Raja dalam keadaan mabuk asmara maka gerakan tariannya pun kadang menggambarkan seorang yang sedang kasmaran.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <a class="link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions5" aria-controls="offcanvasWithBothOptions">Singo Barong</a>
+
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions5" aria-labelledby="offcanvasWithBothOptionsLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Singo Barong</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <img src="image/singo.jpg" alt="Singo Barong" class="img-fluid rounded mb-5" />
+                        <p>
+                          Singo Barong adalah tokoh dan penari berkepala macan dengan hiasan merak dan paling dominan dalam kesenian Reog Ponorogo, Penari Singo Barong disebut pula sebagai Pembarong. Dahulunya Singo Barong merupakan Warok
+                          dari Ponorogo yang kemudian mendirikan kerajaan Lodaya. Dalam pementasan Reog Ponorogo, Singo Barong digambarkan sebagai musuh Prabu Klono Sewandono ketika akan melamar Dewi Songgolangit.
+                          <br /><br />
+                          Penari Singo Barong harus memiliki kemampuan dan kelincahan yang tinggi. Ia harus bisa menari dengan gerakan-gerakan yang dinamis dan energik. Singo Barong juga harus bisa melakukan atraksi-atraksi berbahaya,
+                          seperti melompat-lompat dan memutar-mutar tongkat.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir cara membuat -->
+
+    <hr class="text-white" />
+
+    <!-- Cara Buat -->
+    <section id="caraBuat" class="caraBuat">
+      <div class="container">
+        <div class="row pt-4 mb-4">
+          <div class="col text-white mb-5 text-center">
+            <h2>Cara Membuat Topeng Reog Ponorogo</h2>
+          </div>
+        </div>
+
+        <div class="text-white mb-5">
+          <p>
+            Pada dasarnya, topeng Reog Ponorogo terdiri dari kepala singa dan dadak merak.
+            <br /><br />
+            Uniknya, sampai saat ini pengrajin topeng Reog Ponorogo masih menggunakan bulu burung merak asli untuk topeng Reog Ponogo buatan mereka. Biasanya, untuk menghasilkan satu topeng Reog Ponorogo diperlukan sekitar 1.100 bulu merak.
+            <br /><br />
+            Sementara itu, untuk membuat bagian kepala singa para pengrajin biasanya menggunakan bahan dasar kayu dan bagian kulitnya menggunakan kulit sapi sebagai bahan dasarnya lalu dibentuk menyerupai kulit harimau. Pada zaman dahulu,
+            para pengrajin masih menggunakan kulit harimau asli sebagai kulit topeng Reog Ponorogo. Tetapi, hal itu sudah tidak dilakukan lagi di zaman sekarang karena harimau termasuk dalam hewan terlindungi.
+            <br /><br />
+          </p>
+          <p class="text-center mt-5">Mari kita simak cara membuat topeng Reog Ponorogo di bawah ini!</p>
+        </div>
+
+        <div class="row">
+          <div class="col mb-3" data-aos="zoom-in-down" data-aos-duration="1000">
+            <p class="d-grid gap-1 mx-auto">
+              <button
+                class="btn btn-primary"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target=".multi-collapse"
+                aria-expanded="false"
+                aria-controls="multiCollapseExample1 multiCollapseExample2 multiCollapseExample3 multiCollapseExample4"
+              >
+                Tampilkan semua langkah-langkah
+              </button>
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col" data-aos="zoom-in-down" data-aos-delay="200" data-aos-duration="1000">
+            <p class="d-grid gap-1 mx-auto">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Langkah 1</a>
+            </p>
+          </div>
+          <div class="col" data-aos="zoom-in-down" data-aos-delay="400" data-aos-duration="1000">
+            <p class="d-grid gap-1 mx-auto">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Langkah 2</button>
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col mb-3">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+              <div class="card card-body">
+                <strong>Membuat kerangka</strong>
+                <br />
+                Pada langkah pertama, pengrajin topeng akan membuat kerangka topeng yang dibuat dari kayu atau bambu terlebih dahulu. Kayu atau bambu akan dipotong sesuai ukuran yang diinginkan. Kemudian, digabungkan dengan paku, lem, atau
+                rotan.
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+              <div class="card card-body">
+                <strong>Memasang bulu merak</strong>
+                <br />
+                Setelah keerangka topeng selesai dibuat, maka tahap selanjutnya adalah pemasangan bulu merak. Bulu merak yang digunakan biasanya adalah bulu merak jantan. Hal ini karena, bulu merak jantan memiliki warna yang lebih cerah dan
+                indah. Pemasangan bulu merak dilakukan dengan cara diikat dengan rotan atau lem.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col" data-aos="zoom-in-down" data-aos-delay="600" data-aos-duration="1000">
+            <p class="d-grid gap-1 mx-auto">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Langkah 3</a>
+            </p>
+          </div>
+          <div class="col" data-aos="zoom-in-down" data-aos-delay="800" data-aos-duration="1000">
+            <p class="d-grid gap-1 mx-auto">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">Langkah 4</button>
+            </p>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample3">
+              <div class="card card-body">
+                <strong>Pembuatan mata, hidung, dan mulut</strong>
+                <br />
+                Topeng Reog Ponorogo memiliki mata yang besar dan berwarna merah, hidung yang besar dan panjang, serta mulut yang lebar dan tersenyum. Mata, hidung, dan mulut topeng Reog Ponorogo dibuat dari kayu atau bambu. Kayu atau bambu
+                dipotong sesuai dengan ukuran yang diinginkan. Kemudian, dibentuk menyerupai dengan bentuk singa. Yang terakhir, kayu atau bambu akan diamplas hingga halus.
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample4">
+              <div class="card card-body">
+                <strong>Pewarnaan dan finishing</strong>
+                <br />
+                Pada langkah yang terakhir, pengrajin akan memberikan warna pada topeng Reog Ponorogo. Biasanya topeng akan diberi warna merah, kuning, dan hitam. Pewarnaan topeng dilakukan dengan menggunakan cat kayu atau cat akrilik.
+                Selanjutnya adalah tahap finishing, biasanya dilakukan dengan cara mengamplas topeng hingga halus dengan tujuan merapikan dan mempercantik topeng. Kemudian, topeng diberi lapisan pernis untuk melindungi topeng dari
+                kerusakan.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Cara Buat -->
+
+    <!-- Pawai -->
+    <section class="pawai bg-light" id="pawai">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mt-5">
+            <h2>Portfolio</h2>
+          </div>
+        </div>
+
+        <div class="row mb-4 mt-5" data-aos-duration="1000">
+          <div class="col-md">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+              <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="100">
+              <img class="card-img-top" src="img/thumbs/2.png" alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="200">
+              <img class="card-img-top" src="img/thumbs/3.png" alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" data-aos-duration="1000">
+          <div class="col-md">
+            <div class="card mb-5" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="300">
+              <img class="card-img-top" src="img/thumbs/4.png" alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="400">
+              <img class="card-img-top" src="img/thumbs/5.png" alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500">
+              <img class="card-img-top" src="img/thumbs/6.png" alt="Card image cap" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir pawai -->
+
+    <!-- Footer -->
+    <section id="footer" class="footer mt-5 bg-black">
+      <div class="container text-white">
+        <footer class="py-3 mt-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-white">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pengertian" class="nav-link px-2 text-white">Pengertian</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-white">Reog Ponorogo</a>
+            </li>
+            <li class="nav-item">
+              <a href="#footer" class="nav-link px-2 text-white">Footer</a>
+            </li>
+          </ul>
+          <p class="text-center">&copy; 2023 | built with <i class="bi bi-heart-fill"></i> by. Hamba Allah</p>
+        </footer>
+      </div>
+    </section>
+    <!-- Akhir Footer -->
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Akhir JavaScript -->
+  </body>
+</html>
